@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: andika, sans-serif !important;
+  background-color: #000;
+  color: #cdcdcd;
+  font-weight: 400;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.Nav_Bar {
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.Nav_Bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+.Nav_Bar li {
+  float: left;
+}
+
+.Nav_Bar li a {
+  color: #cdcdcd;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.Nav_Bar li a:hover {
+  text-decoration: underline #18b2cc 3px;
+}
+
+p {
+  width: 40%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the paragraph */
+  padding: 0 10%; /* Adjust the padding as needed */
+  text-align: left; 
+  font-size: 19px;
+}
+
+img {
+  width: 45%; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the image */
+  display: block; /* Centering for block-level elements */
+  border-radius: 15px; /* Curved corners */
+}
+
+.project-list {
+  list-style-type: none;
+  padding: 0;
+  width: 35%; /* Match the width of p text */
+  margin: 20px auto; /* Center the list */
+}
+
+.project-list li {
+  margin: 10px 0; /* Add margin between list items */
+}
+
+.project-list li a {
+  color: #cdcdcd;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.project-list li a:hover {
+  text-decoration: underline #18b2cc 3px;
+}
