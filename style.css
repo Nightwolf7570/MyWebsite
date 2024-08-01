@@ -53,29 +53,29 @@ h2 {
 }
 
 p {
-  width: 40%; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the paragraph */
-  padding: 0 10%; /* Adjust the padding as needed */
+  width: 40%; 
+  margin: 0 auto; 
+  padding: 0 10%; 
   text-align: left; 
   font-size: 19px;
 }
 
 img {
-  width: 45%; /* Adjust the width as needed */
-  margin: 20px auto; /* Center the image */
-  display: block; /* Centering for block-level elements */
-  border-radius: 15px; /* Curved corners */
+  width: 45%; 
+  margin: 20px auto; 
+  display: block; 
+  border-radius: 15px; 
 }
 
 .project-list {
   list-style-type: none;
   padding: 0;
-  width: 35%; /* Match the width of p text */
-  margin: 20px auto; /* Center the list */
+  width: 35%; 
+  margin: 20px auto; 
 }
 
 .project-list li {
-  margin: 10px 0; /* Add margin between list items */
+  margin: 10px 0; 
 }
 
 .project-list li a {
