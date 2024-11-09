@@ -76,6 +76,8 @@ p a:hover {
 
 img {
   width: 45%; 
+  height: 500px;
+  object-fit: cover;
   margin: 20px auto; 
   display: block; 
   border-radius: 15px; 
